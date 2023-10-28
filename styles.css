@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .item {
+            flex: 0 1 calc(25% - 10px); /* 25% width with spacing between items */
+            margin: 5px;
+            background-color: lightblue;
+            height: 100px;
+        }
