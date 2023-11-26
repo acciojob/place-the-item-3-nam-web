@@ -3,7 +3,7 @@
 .holder {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-evenly;
         }
 
         .item {
@@ -11,4 +11,5 @@
             margin: 5px;
             background-color: lightblue;
             height: 100px;
+			width:100px;
         }
